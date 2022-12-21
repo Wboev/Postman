@@ -1,0 +1,358 @@
+{
+	"info": {
+		"_postman_id": "077c8d7f-ba7f-4d98-bd01-9d8f982a576f",
+		"name": "Home__Work_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24994703"
+	},
+	"item": [
+		{
+			"name": "/EP_1 /get_method",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{ip_port}}/get_method?name=Wenzel&age=26",
+					"host": [
+						"{{ip_port}}"
+					],
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Wenzel"
+						},
+						{
+							"key": "age",
+							"value": "26"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_2/user_info_3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Wenzel",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "26",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{ip_port}}/user_info_3?name=Wenzel&age=26&salary=7000",
+					"host": [
+						"{{ip_port}}"
+					],
+					"path": [
+						"user_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Wenzel"
+						},
+						{
+							"key": "age",
+							"value": "26"
+						},
+						{
+							"key": "salary",
+							"value": "7000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_3/object_info_1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Wenzel",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "26",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{ip_port}}/object_info_1?name=Wenzel&age=26&weight=70",
+					"host": [
+						"{{ip_port}}"
+					],
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Wenzel"
+						},
+						{
+							"key": "age",
+							"value": "26"
+						},
+						{
+							"key": "weight",
+							"value": "70"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_4/object_info_2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Wenzel",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "26",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{ip_port}}/object_info_2?name=Wenzel&age=26&salary=7000",
+					"host": [
+						"{{ip_port}}"
+					],
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Wenzel"
+						},
+						{
+							"key": "age",
+							"value": "26"
+						},
+						{
+							"key": "salary",
+							"value": "7000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_5/object_info_3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Wenzel",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "26",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{ip_port}}/object_info_3?name={{name}}&age={{age}}&salary={{salary}}",
+					"host": [
+						"{{ip_port}}"
+					],
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{name}}"
+						},
+						{
+							"key": "age",
+							"value": "{{age}}"
+						},
+						{
+							"key": "salary",
+							"value": "{{salary}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_6/object_info_4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Wenzel",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "26",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{ip_port}}/object_info_4?name={{name}}&age={{age}}&salary={{salary}}",
+					"host": [
+						"{{ip_port}}"
+					],
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{name}}"
+						},
+						{
+							"key": "age",
+							"value": "{{age}}"
+						},
+						{
+							"key": "salary",
+							"value": "{{salary}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_7/object_info_5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Wenzel",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "26",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{ip_port}}/object_info_2?name={{name}}&age={{age}}&salary={{salary}}",
+					"host": [
+						"{{ip_port}}"
+					],
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{{name}}"
+						},
+						{
+							"key": "age",
+							"value": "{{age}}"
+						},
+						{
+							"key": "salary",
+							"value": "{{salary}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
