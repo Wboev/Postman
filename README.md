@@ -1,2 +1,2 @@
 # Postman 
-# Ксендзовская домашка HOME WORK
+#  HOME WORK and practical task
